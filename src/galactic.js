@@ -1,11 +1,13 @@
 // business logic - export functions
 
 export class AgeInput {
-  constructor(month, day, year, planet) {
+  constructor(month, day, year, planet, life) {
   this.month = month;
   this.day = day;
   this.year = year;
   this.planet = planet;
+  this.life = life;
+
   }
 
   validateDate() {
@@ -31,13 +33,10 @@ export class AgeInput {
     let diff = Date.now() - birthday.getTime();
     let getAge = new Date(diff); 
 
-    let lifeExpectancy = this.planet * this.life;
-    console.log(lifeExpectancy);
-    let calc = Math.abs(getAge.getUTCFullYear() - 1970);
+    // let lifeExpectancy = this.planet * this.life;
     // let calc = Math.abs(getAge.getUTCFullYear() - 1970) * this.planet;
 
-    // console.log(calc);
-
+   
     
     return Math.floor(calc); 
   

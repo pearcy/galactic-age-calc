@@ -16,12 +16,21 @@ describe('ValidateDate', () => {
   });
 });
 
-describe('CalculateAge', () => {
-  test('should correctly ouput the current date minus the entered date', () => {
-    let date = new AgeInput(4, 17, 1990);
-    expect(date.calculateAge()).toEqual(30);
+// describe('CalculateAge', () => {
+//   test('should correctly ouput the current date minus the entered date', () => {
+//     let date = new AgeInput(4, 17, 1990);
+//     expect(date.calculateAge()).toEqual(30);
+//   });
+// });
+
+describe('determinePlanetAge', () => {
+  test('should correctly ouput the age of user from Mars', () => {
+    let date = new AgeInput(4, 17, 1990, 1.88);
+    expect(date.calculateAge()).toEqual(56);
   });
 });
+
+
 
 
 

@@ -34,7 +34,7 @@ export class AgeInput {
     let getAge = new Date(diff); 
 
     // let lifeExpectancy = this.planet * this.life;
-    // let calc = Math.abs(getAge.getUTCFullYear() - 1970) * this.planet;
+    let calc = Math.abs(getAge.getUTCFullYear() - 1970) * this.planet;
 
    
     

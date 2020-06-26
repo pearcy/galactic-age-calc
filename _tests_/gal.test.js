@@ -45,6 +45,15 @@ describe('determinePlanetAge', () => {
   });
 });
 
+describe('determinePlanetAge', () => {
+  test('should correctly ouput the age of user from Jupiter', () => {
+    let date = new AgeInput(4, 17, 1990, 11.86);
+    expect(date.calculateAge()).toEqual(355);
+  });
+});
+
+
+
 
 
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593206965907" clover="3.2.0">
-  <project timestamp="1593206965908" name="All files">
-    <metrics statements="20" coveredstatements="17" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3" elements="33" coveredelements="27" complexity="0" loc="20" ncloc="20" packages="1" files="1" classes="1"/>
+<coverage generated="1593207035856" clover="3.2.0">
+  <project timestamp="1593207035856" name="All files">
+    <metrics statements="21" coveredstatements="18" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3" elements="34" coveredelements="28" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
     <file name="galactic.js" path="/Users/pearcy/epicode2/5week/galactic-age-calc/src/galactic.js">
-      <metrics statements="20" coveredstatements="17" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3"/>
+      <metrics statements="21" coveredstatements="18" conditionals="10" coveredconditionals="7" methods="3" coveredmethods="3"/>
       <line num="5" count="4" type="stmt"/>
       <line num="6" count="4" type="stmt"/>
       <line num="7" count="4" type="stmt"/>
@@ -23,6 +23,7 @@
       <line num="31" count="2" type="stmt"/>
       <line num="33" count="2" type="stmt"/>
       <line num="34" count="2" type="stmt"/>
+      <line num="37" count="2" type="stmt"/>
       <line num="41" count="2" type="stmt"/>
     </file>
   </project>

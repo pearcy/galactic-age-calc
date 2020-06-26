@@ -1,1 +1,1 @@
-import { AgeInput } from "./../src/galactic.js";
+// import { AgeInput } from "./../src/galactic.js";

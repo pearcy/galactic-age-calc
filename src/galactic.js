@@ -22,7 +22,7 @@ export class AgeInput {
 
     let lifeExpectancy = this.planet * this.life;
     console.log(lifeExpectancy);
-    let calc = Math.abs(getAge.getUTCFullYear() - 1970);
+    // let calc = Math.abs(getAge.getUTCFullYear() - 1970);
     let calc = Math.abs(getAge.getUTCFullYear() - 1970) * this.planet;
   
   

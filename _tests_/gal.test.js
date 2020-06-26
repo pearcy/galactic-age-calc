@@ -71,6 +71,13 @@ describe('CalculateYearsLeft', () => {
   });
 });
 
+describe('CalculateYearsLeft', () => {
+  test('should correctly ouput the years left to live if user is from Mars', () => {
+    let date = new AgeInput(4, 17, 1990, 1.88, 90);
+    expect(date.calculateAge()).toEqual(112);
+  });
+});
+
 
 
 

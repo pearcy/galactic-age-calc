@@ -38,6 +38,15 @@ describe('determinePlanetAge', () => {
   });
 });
 
+describe('determinePlanetAge', () => {
+  test('should correctly ouput the age of user from Venus', () => {
+    let date = new AgeInput(4, 17, 1990, .62);
+    expect(date.calculateAge()).toEqual(18);
+  });
+});
+
+
+
 
 
 

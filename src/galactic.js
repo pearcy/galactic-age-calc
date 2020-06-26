@@ -37,11 +37,11 @@ export class AgeInput {
     let calc = Math.abs(getAge.getUTCFullYear() - 1970) * this.planet;
 
 
-    // if (lifeExpectancy < calc) {
-    //   calc = calc - lifeExpectancy;
-    // } else {
-    //   calc = lifeExpectancy - calc;
-    // }
+    if (lifeExpectancy < calc) {
+      calc = calc - lifeExpectancy;
+    } else {
+      calc = lifeExpectancy - calc;
+    }
     
     return Math.floor(calc); 
   

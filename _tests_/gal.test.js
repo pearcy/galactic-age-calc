@@ -1,0 +1,1 @@
+import { AgeInput } from "./../src/galactic.js";

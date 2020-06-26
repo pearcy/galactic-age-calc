@@ -9,5 +9,15 @@ export class AgeInput {
   this.life = life;
   }
 
-  
 
+  calculateAge() {
+    let m = String(this.month);
+    let d = String(this.day);
+    let y = String(this.year);
+    let dob = m + '-' + d + '-' + y; 
+    let birthday = new Date(dob);
+  
+    let diff = Date.now() - birthday.getTime();
+    let getAge = new Date(diff); 
+  
+  

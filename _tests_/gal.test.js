@@ -9,3 +9,10 @@ describe ('AgeInput', () => {
   });
 });
 
+describe('CalculateAge', () => {
+  test('should correctly ouput the current date minus the entered date', () => {
+    let date = new AgeInput(4, 17, 1990);
+    expect(date.calculateAge()).toEqual(30);
+  });
+});
+

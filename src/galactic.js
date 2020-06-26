@@ -19,5 +19,10 @@ export class AgeInput {
   
     let diff = Date.now() - birthday.getTime();
     let getAge = new Date(diff); 
+
+    let lifeExpectancy = this.planet * this.life;
+    console.log(lifeExpectancy);
+    let calc = Math.abs(getAge.getUTCFullYear() - 1970);
+    let calc = Math.abs(getAge.getUTCFullYear() - 1970) * this.planet;
   
   

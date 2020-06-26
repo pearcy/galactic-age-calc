@@ -31,6 +31,14 @@ describe('determinePlanetAge', () => {
 });
 
 
+describe('determinePlanetAge', () => {
+  test('should correctly ouput the age of user from Mercury', () => {
+    let date = new AgeInput(4, 17, 1990, .24);
+    expect(date.calculateAge()).toEqual(7);
+  });
+});
+
+
 
 
 

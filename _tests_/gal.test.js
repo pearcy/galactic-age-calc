@@ -85,8 +85,14 @@ describe('CalculateYearsLeft', () => {
   });
 });
 
+// Test to determine number of years they have lived past the life expectancy.
 
-
+describe('CalculateLifeLeft', () => {
+  test('should correctly ouput the years that an alien from Mercury has lived over thier life expectancy', () => {
+    let date = new AgeInput(4, 17, 1940, .24, 70);
+    expect(date.calculateAge()).toEqual(2);
+  });
+});
 
 
 

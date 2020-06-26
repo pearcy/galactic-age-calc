@@ -50,6 +50,9 @@ There are no known bugs at the time of this update
 | **Determines years left** | User Input:"Alien from Jupiter inputs birthday of 4.17.1990" | Output: "711" |
 
 | **Determines years lived past life expectancy** | User Input:"Alien from Mercury who is "Ancient" inputs birthday of 4.17.1940" | Output: "2" |
+| **Determines years lived past life expectancy** | User Input:"Alien from Venus who is "Ancient" inputs birthday of 4.17.1940" | Output: "" |
+| **Determines years lived past life expectancy** | User Input:"Alien from Mars who is "Ancient" inputs birthday of 4.17.1940" | Output: "" |
+| **Determines years lived past life expectancy** | User Input:"Alien from Jupiter who is "Ancient" inputs birthday of 4.17.1940" | Output: "" |
 
 
 

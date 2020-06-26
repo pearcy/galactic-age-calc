@@ -78,6 +78,13 @@ describe('CalculateYearsLeft', () => {
   });
 });
 
+describe('CalculateYearsLeft', () => {
+  test('should correctly ouput the years left to live if user is from Jupiter', () => {
+    let date = new AgeInput(4, 17, 1990, 11.86, 90);
+    expect(date.calculateAge()).toEqual(711);
+  });
+});
+
 
 
 

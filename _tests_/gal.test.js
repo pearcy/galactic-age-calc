@@ -64,7 +64,12 @@ describe('CalculateYearsLeft', () => {
   });
 });
 
-
+describe('CalculateYearsLeft', () => {
+  test('should correctly ouput the years left to live if user is from Venus', () => {
+    let date = new AgeInput(4, 17, 1990, .62, 90);
+    expect(date.calculateAge()).toEqual(37);
+  });
+});
 
 
 

@@ -53,6 +53,16 @@ describe('determinePlanetAge', () => {
 });
 
 
+describe('CalculateYearsLeft', () => {
+  test('should correctly ouput the years left to live if user is from Mercury', () => {
+    let date = new AgeInput(4, 17, 1990, .24, 90);
+    expect(date.calculateAge()).toEqual(14);
+  });
+});
+
+
+
+
 
 
 

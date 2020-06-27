@@ -94,6 +94,14 @@ describe('CalculateLifeLeft', () => {
   });
 });
 
+describe('CalculateLifeLeft', () => {
+  test('should correctly ouput the years that an alien from Venus has lived over thier life expectancy', () => {
+    let date = new AgeInput(4, 17, 1940, .62, 70);
+    expect(date.calculateAge()).toEqual(6);
+  });
+});
+
+
 
 
 

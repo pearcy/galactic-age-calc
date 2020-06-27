@@ -101,6 +101,13 @@ describe('CalculateLifeLeft', () => {
   });
 });
 
+describe('CalculateLifeLeft', () => {
+  test('should correctly ouput the years that an alien from Mars has lived over thier life expectancy', () => {
+    let date = new AgeInput(4, 17, 1940, 1.88, 70);
+    expect(date.calculateAge()).toEqual(18);
+  });
+});
+
 
 
 

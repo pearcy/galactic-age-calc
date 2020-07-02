@@ -16,44 +16,6 @@ describe('ValidateDate', () => {
   });
 });
 
-// describe('CalculateAge', () => {
-//   test('should correctly ouput the current date minus the entered date', () => {
-//     let date = new AgeInput(4, 17, 1990);
-//     expect(date.calculateAge()).toEqual(30);
-//   });
-// });
-
-// Tests for Planet Age 
-
-// describe('determinePlanetAge', () => {
-//   test('should correctly ouput the age of user from Mars', () => {
-//     let date = new AgeInput(4, 17, 1990, 1.88);
-//     expect(date.calculateAge()).toEqual(56);
-//   });
-// });
-
-
-// describe('determinePlanetAge', () => {
-//   test('should correctly ouput the age of user from Mercury', () => {
-//     let date = new AgeInput(4, 17, 1990, .24);
-//     expect(date.calculateAge()).toEqual(7);
-//   });
-// });
-
-// describe('determinePlanetAge', () => {
-//   test('should correctly ouput the age of user from Venus', () => {
-//     let date = new AgeInput(4, 17, 1990, .62);
-//     expect(date.calculateAge()).toEqual(18);
-//   });
-// });
-
-// describe('determinePlanetAge', () => {
-//   test('should correctly ouput the age of user from Jupiter', () => {
-//     let date = new AgeInput(4, 17, 1990, 11.86);
-//     expect(date.calculateAge()).toEqual(355);
-//   });
-// });
-
 
 // Tests for to Determine how many years a user has left to live on each planet
 

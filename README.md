@@ -35,24 +35,19 @@ There are no known bugs at the time of this update
 * Webpack
 * ESLint
 
+
 ### Specs
-| Behaviour | Input | Output |
-| :------------- | :------------- | :------------- |
 
-| **Inputs a Birthdate** | User Input:"Alien from Mercury inputs birthday of 4.17.1990" | Output: "7" |
-| **Inputs a Birthdate** | User Input:"Alien from Venus inputs birthday of 4.17.1990" | Output: "18" |
-| **Inputs a Birthdate** | User Input:"Alien from Mars inputs birthday of 4.17.1990" | Output: "56" |
-| **Inputs a Birthdate** | User Input:"Alien from Jupiter inputs birthday of 4.17.1990" | Output: "355" |
-
-| **Determines years left** | User Input:"Alien from Mercury inputs birthday of 4.17.1990" | Output: "14" |
-| **Determines years left** | User Input:"Alien from Venus inputs birthday of 4.17.1990" | Output: "37" |
-| **Determines years left** | User Input:"Alien from Mars inputs birthday of 4.17.1990" | Output: "112" |
-| **Determines years left** | User Input:"Alien from Jupiter inputs birthday of 4.17.1990" | Output: "711" |
-
-| **Determines years lived past life expectancy** | User Input:"Alien from Mercury inputs birthday of 4.17.1940, demo of "Ancient" | Output: "2" |
-| **Determines years lived past life expectancy** | User Input:"Alien from Venus inputs birthday of 4.17.1940", demo of "Ancient" | Output: "6" |
-| **Determines years lived past life expectancy** | User Input:"Alien from Mars inputs birthday of 4.17.1940", demo of "Ancient" | Output: "18" |
-| **Determines years lived past life expectancy** | User Input:"Alien from Jupiter inputs birthday of 4.17.1940", demo of "Ancient" | Output: "118" |
+| Behaviour | Input | Output
+| ----------- | ----------- | ----------- |
+| **Determines years left** | "Alien from Mercury inputs birthday of 4.17.1990" |  "14" |
+| **Determines years left** | "Alien from Venus inputs birthday of 4.17.1990" |  "37" |
+| **Determines years left** | "Alien from Mars inputs birthday of 4.17.1990" |  "112" |
+| **Determines years left** | "Alien from Jupiter inputs birthday of 4.17.1990" |  "711" |
+| **Determines years lived past life expectancy** | "Alien from Mercury inputs birthday of 4.17.1940, demo of "Ancient" |  "2" |
+| **Determines years lived past life expectancy** | "Alien from Venus inputs birthday of 4.17.1940", demo of "Ancient" |  "6" |
+| **Determines years lived past life expectancy** | "Alien from Mars inputs birthday of 4.17.1940", demo of "Ancient" |  "18" |
+| **Determines years lived past life expectancy** | "Alien from Jupiter inputs birthday of 4.17.1940", demo of "Ancient" |  "118" |
 
 
 

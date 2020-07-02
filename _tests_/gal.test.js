@@ -16,7 +16,6 @@ describe('ValidateDate', () => {
   });
 });
 
-
 // Tests for to Determine how many years a user has left to live on each planet
 
 describe('CalculateYearsLeft', () => {

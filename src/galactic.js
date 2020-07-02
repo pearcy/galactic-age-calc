@@ -5,7 +5,9 @@ export class AgeInput {
   this.month = month;
   this.day = day;
   this.year = year;
+  // A value used to determine an Alien's planet age - similiar to dog age but for planets.
   this.planet = planet;
+  // A value used to determine how many years a user has left to live on each planet
   this.life = life;
 
   }
